@@ -1,1 +1,18 @@
+#include<iostream>  
+using namespace std;  
+  
+int main()  
+{     
+    int n,x,y,z,a,b,c;  
+    cin >> n ;  
+    x=n+3;  
+    y=n*2-5;  
+    z=y/10;  
+    a=x%10;  
+    c=z*10+a;  
+    cout<<c;  
+    
+    return 0;  
+}   
 
+http://www.tcgs.tc.edu.tw:1218/ShowProblem?problemid=a010
