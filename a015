@@ -1,1 +1,24 @@
+#include<iostream>  
+using namespace std;  
+  
+int main()  
+{     
+    int n,x;  
+    cin >> n >> x ;  
+    if(n==x)  
+    {  
+        cout<<n<<"="<<x;  
+    }  
+    else if(n>x)  
+    {  
+        cout<<n<<">"<<x;  
+    }  
+    else if(n<x)  
+    {  
+        cout<<n<<"<"<<x;  
+    }  
+     
+    return 0;  
+}   
 
+http://www.tcgs.tc.edu.tw:1218/ShowProblem?problemid=a015
