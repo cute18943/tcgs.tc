@@ -1,1 +1,22 @@
+#include<iostream>  
+using namespace std;  
+int main()    
+{        
+    int n,x;   
+      
+    while(cin>>n){  
+      
+        x=n*4/5+30;  
+          
+        if(x>=100){  
+            cout<<"100"<<endl;  
+        }else  
+        {  
+            cout<<x<<endl;  
+        }  
+  
+    }  
+    return 0;    
+}     
 
+http://www.tcgs.tc.edu.tw:1218/ShowProblem?problemid=c008
