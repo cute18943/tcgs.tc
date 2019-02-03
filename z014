@@ -1,1 +1,22 @@
+#include<iostream>  
+using namespace std;  
+int main()    
+{        
+    int n;   
+      
+    while(cin>>n){  
+      
+        if(n>=1)  
+        {  
+            cout<<"yes"<<endl;  
+        }else  
+        {  
+            cout<<"no"<<endl;  
+        }  
+          
+    }  
+      
+    return 0;    
+}     
 
+http://www.tcgs.tc.edu.tw:1218/ShowProblem?problemid=z014
