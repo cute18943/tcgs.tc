@@ -1,1 +1,43 @@
+#include<iostream>  
+using namespace std;  
+int main()    
+{        
+    int n,x,y,z,a,b,c;   
+      
+    while(cin>>n>>x>>y>>z){  
+      
+        a=(y-n)*60;  
+        b=z-x;  
+        c=a+b;  
+          
+        if(c<=30)  
+        {  
+            cout<<"0"<<endl;  
+        }else if(c>=31 && c<=60)  
+        {  
+            cout<<"30"<<endl;  
+        }else if(c>=61 && c<=120)  
+        {  
+            cout<<"60"<<endl;  
+        }else if(c>=121 && c<=180)  
+        {  
+            cout<<"90"<<endl;  
+        }else if(c>=181 && c<=240)  
+        {  
+            cout<<"120"<<endl;  
+        }else if(c>=241 && c<=300)  
+        {  
+            cout<<"150"<<endl;  
+        }else if(c>=301 && c<=360)  
+        {  
+            cout<<"180"<<endl;  
+        }else   
+        {  
+            cout<<"210"<<endl;  
+        }  
+    }  
+      
+    return 0;    
+}     
 
+http://www.tcgs.tc.edu.tw:1218/ShowProblem?problemid=c002
