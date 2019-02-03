@@ -1,1 +1,53 @@
+#include<iostream>  
+using namespace std;  
+int main()    
+{        
+    int n,x;   
+      
+    while( cin>>n>>x){  
+       
+        if(n>=90 && n<=100)  
+        {  
+            n=5;  
+        }  
+        else if(n>=70 && n<=89)  
+        {  
+            n=4;  
+        }  
+        else if(n>=50 && n<=69)  
+        {  
+            n=3;  
+        }else if(n>=30 && n<=49)  
+        {  
+            n=2;  
+        }else if(n>=0 && n<=29)  
+        {  
+            n=1;  
+        }  
+          
+        if(x>=350 && x<=400)  
+        {  
+            x=5;  
+        }  
+        else if(x>=250 && x<=349)  
+        {  
+            x=4;  
+        }  
+        else if(x>=150 && x<=249)  
+        {  
+            x=3;  
+        }else if(x>=50 && x<=149)  
+        {  
+            x=2;  
+        }else if(x>=0 && x<=49)  
+        {  
+            x=1;  
+        }  
+          
+        cout<<n<<" "<<x<<endl;  
+     }  
+    return 0;    
+}     
+
+http://www.tcgs.tc.edu.tw:1218/ShowProblem?problemid=c039
 
