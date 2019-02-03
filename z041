@@ -1,0 +1,30 @@
+#include<iostream>  
+using namespace std;  
+int main()    
+{        
+    int n,x,y,z,a;   
+      
+    while(cin>>n>>x>>y>>z>>a){  
+       
+       if(z>=1 && z<=5 && a==1)  
+       {  
+            cout<<"happy"<<endl;  
+       }  
+       else if(z>=1 && z<=5 && a==0)  
+       {  
+            cout<<"unhappy"<<endl;  
+       }  
+       else if(z>=6 && z<=7 && a==1)  
+       {  
+            cout<<"unhappy"<<endl;  
+       }  
+       else if(z>=6 && z<=7 && a==0)  
+       {  
+            cout<<"happy"<<endl;  
+       }  
+    }  
+      
+    return 0;    
+}     
+
+http://www.tcgs.tc.edu.tw:1218/ShowProblem?problemid=z041
