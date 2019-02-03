@@ -1,1 +1,32 @@
+#include<iostream>  
+using namespace std;  
+int main()    
+{        
+    int n,x;   
+      
+    while( cin>>n>>x){  
+      
+      if(n==7 && x>=30 && x<=59)  
+      {  
+        cout<<"YES"<<endl;  
+      }else if(n>=8 && x>=0 && n<=11 && x<=9 ){  
+        cout<<"NO"<<endl;  
+      }else if(n>=8 && x>=10 && n<=11 && x<=59 ){  
+        cout<<"YES"<<endl;  
+      }else if(n==12 && x>=0 && x<=29 ){  
+        cout<<"NO"<<endl;  
+      }else if(n==12 && x>=30 && x<=59 ){  
+        cout<<"YES"<<endl;  
+      }else if(n>=13 && x>=0 && n<=16 && x<=9 ){  
+        cout<<"NO"<<endl;  
+      }else if(n>=13 && x>=10 && n<=16 && x<=59 ){  
+        cout<<"YES"<<endl;  
+      }else  
+      {  
+        cout<<"XXX"<<endl;  
+      }  
+}  
+    return 0;    
+}     
 
+http://www.tcgs.tc.edu.tw:1218/ShowProblem?problemid=c027
