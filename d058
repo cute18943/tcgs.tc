@@ -1,0 +1,44 @@
+#include<iostream>  
+using namespace std;  
+int main()    
+{        
+    double n,x,z;   
+      
+    while(cin>>n>>x>>z){  
+       
+     if(n==0 && x==0 && z==0)  
+     {  
+        cout<<"此座標點落在原點"<<endl;   
+        }   
+     else if(n==0 && x==0 && z<0)   
+      {  
+        cout<<"此座標點落在z軸上"<<endl;   
+        }  
+    else if(n==0 && x==0 && z>0)   
+      {  
+        cout<<"此座標點落在z軸上"<<endl;   
+        }  
+       else if(n>0 && x==0 && z==0)   
+      {  
+        cout<<"此座標點落在x軸上"<<endl;   
+        }  
+    else if(n<0 && x==0 && z==0)   
+      {  
+        cout<<"此座標點落在x軸上"<<endl;   
+        }   else if(n==0 && x<0 && z==0)   
+      {  
+        cout<<"此座標點落在y軸上"<<endl;   
+        }   else if(n==0 && x>0 && z==0)   
+      {  
+        cout<<"此座標點落在y軸上"<<endl;   
+        }else  
+        {  
+            cout<<"此座標點不落在原點、x軸、y軸或z軸上"<<endl;   
+        }  
+              
+    }  
+      
+    return 0;    
+}     
+
+http://www.tcgs.tc.edu.tw:1218/ShowProblem?problemid=d058
