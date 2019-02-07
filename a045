@@ -1,0 +1,24 @@
+#include<iostream>   
+#include<cmath>   
+using namespace std;    
+int main()      
+{          
+    int n=0,m,p;  
+    while(cin>>n){  
+    
+         m=sqrt(n);  
+         for(p=2;p<=m;p++)  
+         {  
+            if(n%p==0){  
+                cout<<"NO"<<endl;   
+                break;  
+             }    
+         }     
+        if(p>m){  
+                cout<<"YES"<<endl;   
+         }     
+    }     
+    return 0;      
+}       
+
+http://www.tcgs.tc.edu.tw:1218/ShowProblem?problemid=a045
