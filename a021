@@ -1,0 +1,25 @@
+#include<iostream>    
+using namespace std;    
+    
+int main()    
+{        
+    int n,i;    
+   while( cin>>n){  
+            
+      if(n%2==0){  
+        while(n!=0){  
+            n/=2;  
+            if(n%2==1){  
+                break;  
+              }  
+          }  
+        cout<<n<<endl;  
+      }else  
+      {  
+         cout<<n<<endl;  
+      }  
+   }   
+    return 0;    
+}     
+
+http://www.tcgs.tc.edu.tw:1218/ShowProblem?problemid=a021
