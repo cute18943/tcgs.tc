@@ -1,0 +1,28 @@
+#include<iostream>    
+using namespace std;    
+int main()      
+{          
+    int x,y;  
+    int a,b,c;  
+    char d[4]="+-*",z;  
+      
+    while(cin>>x>>z>>y){  
+          
+        if(z==d[0])  
+        {  
+            a=x+y;  
+            cout<<a<<endl;  
+        }else if(z==d[1])  
+        {  
+            b=x-y;  
+            cout<<b<<endl;  
+        }else if(z==d[2])  
+        {  
+            c=x*y;  
+            cout<<c<<endl;  
+        }  
+    }  
+    return 0;      
+}       
+
+http://www.tcgs.tc.edu.tw:1218/ShowProblem?problemid=a032
