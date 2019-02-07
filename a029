@@ -1,0 +1,29 @@
+#include<iostream>    
+using namespace std;    
+int main()      
+{          
+    int a=0,b=0;    
+    int i=0,k=0,j=0,m=0;    
+        
+    while(cin>>a>>b){       
+            
+        for( i=a;i<=b;i++)    
+     {    
+        k+=1;     
+            
+        cout<<i;    
+        m=b-a;    
+        if(k<=m){    
+            cout<<"+";    
+         }    
+        j+=i;    
+     }    
+        cout<<"="<<j<<endl;    
+        j=0;    
+        k=0;    
+          
+    }    
+    return 0;      
+}       
+
+http://www.tcgs.tc.edu.tw:1218/ShowProblem?problemid=a029
