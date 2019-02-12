@@ -1,0 +1,52 @@
+#include<iostream>    
+  
+using namespace std;    
+int main()      
+{          
+     int n=0;     
+        
+    while(cin>>n){    
+         
+       if(n>=1&&n<=9  ){  
+            cout<<"|_______"<<n<<"|"<<endl;   
+       }else if(n>=10 && n<=99  )  
+       {  
+            cout<<"|______"<<n<<"|"<<endl;   
+       }else if(n>=100 && n<=999  )  
+       {  
+            cout<<"|_____"<<n<<"|"<<endl;   
+       }else if(n>=1000 && n<=9999  )  
+       {  
+            cout<<"|____"<<n<<"|"<<endl;   
+       }else if(n>=10000)  
+       {  
+            n=n%10000;  
+          
+              
+            if(n%10000>=1 && n%10000<=9)  
+            {  
+                cout<<"|____"<<"000"<<n<<"|"<<endl;   
+            }else if(n%10000>=10 && n%10000<=99){  
+                cout<<"|____"<<"00"<<n<<"|"<<endl;   
+            }else if(n%10000>=100 && n%10000<=999){  
+                cout<<"|____"<<"0"<<n<<"|"<<endl;   
+            }else if(n%10000==0){  
+                cout<<"|____"<<"0000"<<"|"<<endl;   
+            }else  
+            {  
+                cout<<"|____"<<n<<"|"<<endl;   
+            }  
+              
+              
+              
+              
+       }  
+         
+         
+         
+    }    
+        
+    return 0;      
+}       
+
+http://www.tcgs.tc.edu.tw:1218/ShowProblem?problemid=a033
