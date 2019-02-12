@@ -1,0 +1,29 @@
+#include<iostream>    
+   
+using namespace std;    
+int main()      
+{          
+    int n=0,z=0,a=0,j=0;     
+           
+    while(cin>>n){    
+          
+        while(n>=1){  
+                if(n%2==1){  
+                n=3*n+1;  
+            }else  
+            {  
+                n=n/2;  
+            }  
+                j+=1;     
+            if(n==1){  
+                break;  
+            }  
+        }  
+            cout<<j+1<<endl;  
+            j=0;  
+     }    
+       
+    return 0;      
+}       
+
+http://tcgs.tc.edu.tw:1218/ShowProblem?problemid=a023
