@@ -1,0 +1,17 @@
+#include<iostream>     
+#include<cmath>    
+using namespace std;      
+int main()        
+{            
+    int n,k,a,b;    
+     
+    while(cin>>n>>k){    
+          a=n-k;  
+          b=a-k;  
+          cout<<abs(b)<<endl;  
+    }    
+        
+    return 0;        
+}         
+
+http://www.tcgs.tc.edu.tw:1218/ShowProblem?problemid=z060
