@@ -1,0 +1,27 @@
+#include<iostream>    
+   
+using namespace std;    
+int main()      
+{          
+    long long int  n,x,y;     
+        
+    while(cin>>n>>x){    
+         
+           
+          if(n>x){  
+            y=n-x;    
+            cout<<y<<endl;    
+              
+          } else  
+          {  
+                y=x-n;    
+            cout<<y<<endl;    
+          }  
+           
+            
+    }    
+        
+    return 0;      
+}       
+
+http://tcgs.tc.edu.tw:1218/ShowProblem?problemid=z019
