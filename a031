@@ -1,0 +1,25 @@
+#include<iostream>      
+     
+using namespace std;      
+int main()        
+{            
+    long long int n=0,j=0,x=0;       
+             
+    while(cin>>n>>j){      
+            
+       x=n+j;  
+         
+       if(n>j)  
+       {  
+            cout<<"A "<<x<<endl;  
+       }else  
+       {  
+            cout<<"B "<<x<<endl;  
+       }  
+         
+     }      
+         
+    return 0;        
+}         
+
+http://www.tcgs.tc.edu.tw:1218/ShowProblem?problemid=a031
