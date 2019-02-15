@@ -1,0 +1,91 @@
+#include<iostream>        
+#include<cmath>    
+using namespace std;        
+int main()          
+{              
+    int a=0, b=0,c=0,d=0;  
+     
+    while(cin>>a>>b>>c){  
+      
+    if(a<b)  
+    {  
+        if(a>c){  
+            cout<<c<<endl;  
+        }  
+    }  
+      
+    if(a>b)  
+    {  
+        if(b>c){  
+            cout<<c<<endl;  
+        }  
+    }  
+      
+    if(c>a)  
+    {  
+        if(a>b){  
+            cout<<b<<endl;  
+        }  
+    }  
+      
+    if(a>c)  
+    {  
+        if(c>b){  
+            cout<<b<<endl;  
+        }  
+    }  
+      
+    if(b>c)  
+    {  
+        if(c>a){  
+            cout<<a<<endl;  
+        }  
+    }  
+      
+    if(b<c)  
+    {  
+        if(b>a){  
+            cout<<a<<endl;  
+        }  
+    }  
+      
+    if(a==b)  
+    {  
+        if(b>c){  
+            cout<<c<<endl;  
+        }else if(b<c)  
+        {  
+            cout<<b<<endl;  
+        }  
+    }  
+      
+    if(a==c)  
+    {  
+        if(c>b){  
+            cout<<b<<endl;  
+        }else if(c<b)  
+        {  
+            cout<<c<<endl;  
+        }  
+    }  
+      
+    if(b==c)  
+    {  
+        if(c>a){  
+            cout<<a<<endl;  
+        }else if(c<a){  
+            cout<<c<<endl;  
+        }  
+    }  
+      
+    if(a==b && a==c && b==c)  
+    {  
+      
+        cout<<c<<endl;  
+          
+    }     
+    }  
+    return 0;          
+}           
+
+http://www.tcgs.tc.edu.tw:1218/ShowProblem?problemid=a014
