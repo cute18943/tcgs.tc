@@ -1,0 +1,20 @@
+#include<iostream>     
+#include<iomanip>     
+using namespace std;      
+int main()        
+{            
+    double a,b,c,d,e,f,g,z;   
+    cin>>z;   
+    for(int i=1;i<=z;i++){  
+  
+   cin>>a>>b>>c>>d>>e>>f;  
+            
+        g=(a*(b+c+d)+e*(a+c+f+d))/(a*(a+c+f+d));    
+        cout<<setiosflags(ios::fixed)<<setprecision(3) << g<<endl ;     
+        }   
+      
+        
+    return 0;        
+}         
+
+http://www.tcgs.tc.edu.tw:1218/ShowProblem?problemid=z047
