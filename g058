@@ -1,0 +1,18 @@
+#include<iostream>    
+using namespace std;    
+int main()      
+{          
+    int n,x,y,z;     
+    cin>>z;  
+    for(int i=1;i<=z;i++){  
+      
+        cin>>n>>x;  
+         
+         y=(n+x)*2;    
+         cout<<y<<endl;    
+        
+    }    
+    return 0;      
+}       
+
+http://www.tcgs.tc.edu.tw:1218/ShowProblem?problemid=g058
