@@ -1,0 +1,20 @@
+#include<iostream>      
+using namespace std;        
+int main()          
+{              
+   long long int a=0,d=0,j=1;      
+        
+    while(cin>>a)      
+    {      
+        for(int i=1;i<=a;i++)  
+        {  
+            j=(j*13)%100;  
+        }     
+        d=j/10;      
+        cout<<d<<endl;   
+        j=1;  
+    }     
+    return 0;          
+}           
+
+http://www.tcgs.tc.edu.tw:1218/ShowProblem?problemid=a042
