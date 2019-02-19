@@ -1,0 +1,31 @@
+#include<iostream>    
+using namespace std;    
+int main()      
+{          
+    int n,x;     
+       
+    while( cin>>n>>x){    
+         
+     if(n>=60 && x>=60)    
+     {    
+        cout<<"2"<<endl;    
+     }         
+	 else if((n+x)/2>=60)    
+     {    
+        cout<<"2"<<endl;    
+     }    
+	  else  if(n>=60  && x<=60)  
+     {    
+        cout<<"1"<<endl;    
+     }
+      else  if(n<=60  && x>=60)  
+     {    
+        cout<<"1"<<endl;    
+     }else if(n<60  && x<60){
+     	cout<<"0"<<endl;    
+	 }
+}    
+    return 0;      
+}       
+
+http://www.tcgs.tc.edu.tw:1218/ShowProblem?problemid=c032
