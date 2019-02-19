@@ -1,0 +1,48 @@
+#include<iostream>    
+using namespace std;    
+int main()      
+{          
+    int n,x,y;     
+        
+    while(cin>>n>>x){    
+        
+        if(n<x)  
+        {  
+            y=x-n;    
+        if(y<=20)    
+        {    
+            cout<<"0"<<endl;        
+        }else if(y>=21 && y<=200)    
+        {    
+           y=(x-n-20)*4;    
+           cout<<y<<endl;    
+        }else if(y>=201 && y<=400)    
+        {    
+            y=(x-n-20-180)*3+720;    
+            cout<<y<<endl;    
+        }    
+        }else  
+        {  
+            y=n-x;    
+              
+            if(y<=20)    
+        {    
+            cout<<"0"<<endl;        
+        }else if(y>=21 && y<=200)    
+        {    
+           y=(n-x-20)*4;    
+           cout<<y<<endl;    
+        }else if(y>=201 && y<=400)    
+        {    
+            y=(n-x-20-180)*3+720;    
+            cout<<y<<endl;    
+        }    
+        }  
+          
+          
+          
+    }    
+    return 0;      
+}       
+
+http://www.tcgs.tc.edu.tw:1218/ShowProblem?problemid=c014
