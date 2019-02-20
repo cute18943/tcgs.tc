@@ -1,0 +1,30 @@
+#include<iostream>    
+using namespace std;    
+int main()      
+{          
+    int n,x,y,z,i,j,a,b,c;     
+       
+    while(cin>>n>>x){    
+         
+       y=(n-90)*12;  
+       z=x-7;  
+       i=y+z;  
+      
+       if(n<=90 && x<=7)  
+       {  
+        cout<<"0"<<endl;  
+       }else if(n<=89 && x<=12){  
+        cout<<"0"<<endl;  
+       }else if(n>=101 && x>=8){  
+        cout<<"0"<<endl;  
+       }else if(n>=102 && x>=1){  
+        cout<<"0"<<endl;  
+       }  
+        else{  
+        cout<<i<<endl;  
+       }  
+    }  
+    return 0;      
+}       
+
+http://tcgs.tc.edu.tw:1218/ShowProblem?problemid=c001
