@@ -1,0 +1,23 @@
+#include<iostream>    
+using namespace std;    
+int main()      
+{          
+    int n,x,y,z,a;     
+      
+       
+    while(cin>>n){    
+         
+       x=n/12;  
+       y=n%12;  
+        a=90+x;  
+         z=7+y;    
+        if(z>12){  
+            cout<<90+x+1<<" "<<7+y-12<<endl;  
+        }else{  
+            cout<<90+x<<" "<<7+y<<endl;  
+        }       
+    }  
+    return 0;      
+}       
+
+http://tcgs.tc.edu.tw:1218/ShowProblem?problemid=c009
