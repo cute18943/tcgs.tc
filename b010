@@ -1,0 +1,95 @@
+#include<iostream>       
+#include<cmath>      
+using namespace std;        
+int main()          
+{              
+    char n[9999];      
+    char a[10]="Y";  
+    char b[10]="Z";  
+    char c[10]="A";  
+    char d[10]="B";  
+    char e[10]="C";  
+    char f[10]="D";  
+    char g[10]="E";  
+    char h[10]="F";  
+    char i[10]="G";  
+    char j[10]="H";  
+    char k[10]="I";  
+    char l[10]="J";  
+    char m[10]="K";  
+    char nn[10]="L";  
+    char o[10]="M";  
+    char p[10]="N";  
+    char q[10]="O";  
+    char r[10]="P";  
+    char s[10]="Q";  
+    char t[10]="R";  
+    char u[10]="S";  
+    char v[10]="T";  
+    char w[10]="U";  
+    char x[10]="V";  
+    char y[10]="W";  
+    char z[10]="X";  
+     
+    while(cin>>n[9999]){      
+        if(n[9999]=='A')  
+        {  
+            cout<<a;  
+        }  
+        else if(n[9999]=='B'){  
+            cout<<b;  
+        }else if(n[9999]=='C'){  
+            cout<<c;  
+        }else if(n[9999]=='D'){  
+            cout<<d;  
+        }else if(n[9999]=='E'){  
+            cout<<e;  
+        }else if(n[9999]=='F'){  
+            cout<<f;  
+        }else if(n[9999]=='G'){  
+            cout<<g;  
+        }else if(n[9999]=='H'){  
+            cout<<h;  
+        }else if(n[9999]=='I'){  
+            cout<<i;  
+        }else if(n[9999]=='J'){  
+            cout<<j;  
+        }else if(n[9999]=='K'){  
+            cout<<k;  
+        }else if(n[9999]=='L'){  
+            cout<<l;  
+        }else if(n[9999]=='M'){  
+            cout<<m;  
+        }else if(n[9999]=='N'){  
+            cout<<nn;  
+        }else if(n[9999]=='O'){  
+            cout<<o;  
+        }else if(n[9999]=='P'){  
+            cout<<p;  
+        }else if(n[9999]=='Q'){  
+            cout<<q;  
+        }else if(n[9999]=='R'){  
+            cout<<r;  
+        }else if(n[9999]=='S'){  
+            cout<<s;  
+        }else if(n[9999]=='T'){  
+            cout<<t;  
+        }else if(n[9999]=='U'){  
+            cout<<u;  
+        }else if(n[9999]=='V'){  
+            cout<<v;  
+        }else if(n[9999]=='W'){  
+            cout<<w;  
+        }else if(n[9999]=='X'){  
+            cout<<x;  
+        }else if(n[9999]=='Y'){  
+            cout<<y;  
+        }else if(n[9999]=='Z'){  
+            cout<<z;  
+        }  
+    }      
+           
+    return 0;          
+}           
+
+http://tcgs.tc.edu.tw:1218/ShowProblem?problemid=b010
