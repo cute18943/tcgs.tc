@@ -1,0 +1,24 @@
+#include <iostream>  
+using namespace std;  
+  
+int main()  
+{  
+ int n,s,i=0;  
+  
+ while(cin>>n){  
+    while(n)  
+ {  
+  s=n%10;  
+  n=(n-s)/10;  
+  i+=s;    
+  if(s==0){  
+     continue;  
+  }  
+  cout<<s;  
+ }  
+ cout<<endl;  
+ }  
+ return 0;  
+}  
+
+http://tcgs.tc.edu.tw:1218/ShowProblem?problemid=a025
