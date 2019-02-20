@@ -1,0 +1,20 @@
+#include <iostream>  
+  
+using namespace std;  
+int main() {  
+  
+    int n,num[9999];  
+    while(cin>>n){  
+        for(int i=0;i<n;i++){  
+            cin>>num[i];  
+        }   
+        for(int i=n-1;i>=0;i--)  
+        {  
+            cout<<num[i]<<" ";  
+        }        
+        cout<<endl;  
+    }  
+    return 0;  
+}  
+
+http://tcgs.tc.edu.tw:1218/ShowProblem?problemid=b001
