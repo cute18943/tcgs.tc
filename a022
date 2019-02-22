@@ -1,0 +1,17 @@
+#include <iostream>  
+using namespace std;  
+int main() {  
+     
+    int n,m;  
+    while(cin>>n>>m){  
+        int t=0;  
+        while(n<m){  
+            n*=3;  
+            t++;  
+        }  
+        cout<<t<<'\n';  
+    }  
+    return 0;  
+}  
+
+http://tcgs.tc.edu.tw:1218/ShowProblem?problemid=a022
