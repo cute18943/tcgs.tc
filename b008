@@ -1,0 +1,21 @@
+#include <iostream>  
+#include <cstring>  
+using namespace std;  
+int main() {  
+      
+    string s;  
+    while(cin>>s){  
+        string cs;  
+        for(int i=s.length()-1;i>=0;i--)  
+        cs+=s[i];  
+        if(s==cs){  
+            cout<<"YES\n";  
+        }  
+        else{  
+            cout<<"NO\n";  
+        }   
+    }  
+    return 0;  
+}  
+
+http://tcgs.tc.edu.tw:1218/ShowProblem?problemid=b008
