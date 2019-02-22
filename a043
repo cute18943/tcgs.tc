@@ -1,0 +1,19 @@
+#include <iostream>  
+#include <cmath>  
+  
+using namespace std;  
+int main() {  
+  
+    int a,b;  
+    while(cin>>a>>b){  
+        if(a<b)swap(a,b);  
+        while(a&&b){  
+            a%=b;  
+            swap(a,b);  
+        }  
+        cout<<a<<'\n';  
+    }  
+    return 0;  
+}  
+
+http://tcgs.tc.edu.tw:1218/ShowProblem?problemid=a043
