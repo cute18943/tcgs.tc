@@ -1,0 +1,22 @@
+#include <iostream>    
+#include <cmath>    
+    
+using namespace std;    
+int main() {    
+    
+    int a,b,c,d;    
+    while(cin>>a>>b){    
+        c=a;  
+        d=b;   
+        while(a&&b){  
+            cout<<a<<"%"<<b<<"=";    
+            a%=b;  
+            cout<<a<<endl;  
+            swap(a,b);        
+        }    
+        cout<<"GCD("<<c<<","<<d<<")="<<a<<'\n';    
+    }    
+    return 0;    
+}    
+
+http://tcgs.tc.edu.tw:1218/ShowProblem?problemid=c040
