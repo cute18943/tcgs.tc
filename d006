@@ -1,0 +1,65 @@
+#include<iostream>    
+using namespace std;    
+int main()      
+{          
+    int a,b,c;    
+        
+       
+        
+    while(cin>>a>>b>>c){    
+    
+     if(a+b<=c)    
+     {    
+        cout<<"無法形成三角形"<<endl;    
+     }else  if(c+b<=a)     
+     {    
+            cout<<"無法形成三角形"<<endl;    
+     }    
+     else  if(c+a<=b)    
+     {    
+            cout<<"無法形成三角形"<<endl;    
+     }    
+         
+       
+     else  if(a*a+b*b==c*c)    
+     {    
+        cout<<"right triangle"<<endl;    
+     }else  if(c*c+b*b==a*a)    
+     {    
+            cout<<"right triangle"<<endl;    
+     }    
+     else  if(a*a+c*c==b*b)    
+     {    
+            cout<<"right triangle"<<endl;    
+     }   
+       
+     else  if(a*a+b*b<c*c)    
+     {    
+        cout<<"obtuse triangle"<<endl;    
+     }else  if(c*c+b*b<a*a)    
+     {    
+            cout<<"obtuse triangle"<<endl;    
+     }    
+     else  if(a*a+c*c<b*b)    
+     {    
+            cout<<"obtuse triangle"<<endl;    
+     }   
+         
+     
+else  if(a*a+b*b>c*c)    
+     {    
+        cout<<"acute triangle"<<endl;    
+     }else  if(c*c+b*b>a*a)    
+     {    
+            cout<<"acute triangle"<<endl;    
+     }    
+     else  if(a*a+c*c>b*b)    
+     {    
+            cout<<"acute triangle"<<endl;    
+     }   
+    }    
+      
+    return 0;      
+}     
+
+http://www.tcgs.tc.edu.tw:1218/ShowProblem?problemid=d006
