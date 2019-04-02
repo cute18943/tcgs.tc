@@ -1,0 +1,23 @@
+#include<iostream>  
+using namespace std;  
+int main(){  
+  
+    int a,b,c,d,e,f,g,h,i,j,k;  
+    while(cin>>a){  
+        k=a/10000;  
+        j=(a-(10000*k))/5000;  
+        i=(a-(10000*k)-(5000*j))/1000;  
+        h=(a-(10000*k)-(5000*j)-(1000*i))/500;  
+        g=(a-(10000*k)-(5000*j)-(1000*i)-(500*h))/100;  
+        f=(a-(10000*k)-(5000*j)-(1000*i)-(500*h)-(100*g))/50;  
+        b=(a-(10000*k)-(5000*j)-(1000*i)-(500*h)-(100*g)-(50*f))/10;  
+        c=(a-(10000*k)-(5000*j)-(1000*i)-(500*h)-(100*g)-(50*f)-(10*b))/5;  
+        d=(a-(10000*k)-(5000*j)-(1000*i)-(500*h)-(100*g)-(50*f)-(10*b)-(5*c))/1;  
+        e=b+f+c+d+g+h+i+j+k;  
+        cout<<e<<endl;    
+    }  
+    system("pause");  
+    return 0;  
+}  
+
+http://www.tcgs.tc.edu.tw:1218/ShowProblem?problemid=b034
