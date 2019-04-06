@@ -1,0 +1,33 @@
+#include<iostream>  
+using namespace std;  
+int main(){  
+  
+    int a,b,c=0,g=0,h=0,j=0,i;  
+    cin>>a;  
+        for(i=1;i<=a;i++){  
+            cin>>b;  
+          
+        if(b==1){  
+            c+=1;  
+          
+        }  
+        if(b==2){  
+            g+=1;  
+          
+        }  
+        if(b==3){  
+            h+=1;  
+          
+        }  
+        if(b>3){  
+            j+=1;  
+          
+        }  
+        }  
+            cout<<c<<" "<<g<<" "<<h<<" "<<j;  
+      
+    system("pause");  
+    return 0;  
+}  
+
+http://www.tcgs.tc.edu.tw:1218/ShowProblem?problemid=c018
