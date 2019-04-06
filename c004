@@ -1,0 +1,30 @@
+#include<iostream>    
+using namespace std;    
+int main(){    
+    
+    int a,b,c,d,e,f,g,h,i,j,k;    
+    while(cin>>a){  
+        b=a%10;  
+        c=(a%100)/10;  
+        d=(a%1000)/100;  
+        e=(a%10000)/1000;  
+        f=(a%100000)/10000;  
+        g=(a%1000000)/100000;  
+        h=(a%10000000)/1000000;  
+          
+        i=(b*7)+(c*6)+(d*5)+(e*4)+(f*3)+(g*2)+(h*1);  
+          
+        if(i%10==0){  
+            cout<<"0"<<endl;  
+        }else{  
+            j=((i/10)+1)*10;  
+            k=j-i;  
+            cout<<k<<endl;  
+        }  
+    }  
+       
+    system("pause");    
+    return 0;    
+}    
+
+http://www.tcgs.tc.edu.tw:1218/ShowProblem?problemid=c004
