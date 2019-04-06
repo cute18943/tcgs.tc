@@ -1,0 +1,37 @@
+#include<iostream>    
+using namespace std;    
+int main(){    
+    
+    int a,b,c,d,e=0,f,g,h,i,j,k;  
+    cin>>a>>b>>c>>d;  
+    while(a!=-1){  
+        e+=1;  
+        cout<<"Round "<<e<<":"<<endl;  
+        cout<<"You hit Dragon "<<b<<" points."<<endl;  
+        c=c-b;  
+        if(c<=0){  
+            cout<<"You:"<<a<<" Dragon:0"<<endl;  
+        }else{  
+            cout<<"You:"<<a<<" Dragon:"<<c<<endl;  
+        }  
+        if(c<=0){  
+            cout<<"You Win!"<<endl;  
+            break;  
+        }  
+        cout<<"Dragon hits You "<<d<<" points."<<endl;  
+        a=a-d;  
+        if(a<=0){  
+            cout<<"You:0"<<" Dragon:"<<c<<endl;  
+        }else{  
+            cout<<"You:"<<a<<" Dragon:"<<c<<endl;  
+        }  
+            if(a<=0){  
+            cout<<"You Lose!"<<endl;  
+            break;  
+        }     
+    }  
+    system("pause");    
+    return 0;    
+}    
+
+http://www.tcgs.tc.edu.tw:1218/ShowProblem?problemid=c007
