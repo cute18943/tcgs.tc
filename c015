@@ -1,0 +1,23 @@
+#include<iostream>    
+using namespace std;    
+int main(){    
+    
+    int a,b,c,d;  
+    while(cin>>a>>b>>c>>d){  
+        if(a==b && a==c && a==d && b==c && b==d && c==d){  
+            cout<<"1000"<<endl;  
+        }else if((a==b && a==c) ||(a==b &&a==d) ||(a==c && a==d)||(b==c && b==d)){  
+            cout<<"100"<<endl;  
+        }else if((a==b &&  c==d) ||(a==c &&b==d) ||(a==d && c==b)){  
+            cout<<"50"<<endl;  
+        }else if(a==b || a==c || a==d || b==c || b==d || c==d){  
+            cout<<"10"<<endl;  
+        }else {  
+            cout<<"0"<<endl;  
+    }  
+}  
+    system("pause");    
+    return 0;    
+}    
+
+http://www.tcgs.tc.edu.tw:1218/ShowProblem?problemid=c015
