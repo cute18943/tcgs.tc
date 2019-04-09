@@ -1,0 +1,61 @@
+#include<iostream>    
+using namespace std;    
+int main(){    
+    
+    int a,b,c,d,e,f,g,h,i;  
+    char j[10];  
+    while(cin>>a>>j[10]>>b>>j[10]>>c>>d>>j[10]>>e>>j[10]>>f){  
+        if(f<c){  
+            e-=1;  
+            f+=60;  
+            g=f-c;  
+        }else{  
+            g=f-c;  
+        }         
+        if(e<b){  
+            d-=1;  
+            e+=60;  
+            h=e-b;  
+        }else{  
+            h=e-b;  
+        }  
+          
+        if(d<a){       
+            d+=24;  
+            i=d-a;  
+        }else{  
+            i=d-a;  
+        }  
+      
+          
+        if(i>=0 && i<=9){  
+            cout<<"0"<<i;  
+        }else{  
+            cout<<i;  
+        }  
+          
+        cout<<":";  
+          
+        if(h>=0 && h<=9){  
+            cout<<"0"<<h;  
+        }else{  
+            cout<<h;  
+        }  
+          
+        cout<<":";          
+          
+        if(g>=0 && g<=9){  
+            cout<<"0"<<g;  
+        }else{  
+            cout<<g;  
+        }  
+          
+        cout<<endl;  
+    }  
+  
+  
+    system("pause");    
+    return 0;    
+}    
+
+http://www.tcgs.tc.edu.tw:1218/ShowProblem?problemid=d063
