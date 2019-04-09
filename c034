@@ -1,0 +1,25 @@
+#include<iostream>    
+using namespace std;    
+int main(){    
+    
+    int a,b,c,d,i;  
+    cin>>a>>b;  
+    for(i=1;i<=b;i++){  
+        a*=7;  
+        if(a>=100){  
+            a%=100;  
+            c=a/10;  
+            d=(a%10)*10;  
+            a=c+d;  
+        }else{  
+            c=a/10;  
+            d=(a%10)*10;  
+            a=c+d;  
+        }         
+    }  
+    cout<<a<<endl;  
+    system("pause");    
+    return 0;    
+}    
+
+http://www.tcgs.tc.edu.tw:1218/ShowProblem?problemid=c034
