@@ -1,0 +1,42 @@
+#include <iostream>      
+#include<iomanip>   
+using namespace std;      
+int main() {      
+      
+    int n;    
+    double b;  
+    int a[100];    
+    
+    cin >> n;    
+    for(int i=0;i<n;i++){          
+    cin >> a[i];    
+    }           
+    
+    int min;    
+    min=a[0];                      
+    for(int i=0;i<n;i++){          
+        if(a[i]<min)    
+        min=a[i];    
+    }    
+      
+    int max=0;  
+    for(int i=0;i<n;i++){          
+        if(a[i]>max)    
+        max=a[i];    
+    }    
+      
+    for(int i=0;i<n;i++){          
+        b=b+a[i];  
+    }    
+     
+    b=b/n;  
+      
+     cout<<setiosflags(ios::fixed)<<setprecision(2) << b<<endl ;         
+     cout<<max<<endl;  
+     cout<<min<<endl;  
+      
+        
+    return 0;      
+}      
+
+http://www.tcgs.tc.edu.tw:1218/ShowProblem?problemid=d085
