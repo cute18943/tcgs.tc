@@ -1,0 +1,25 @@
+#include <iostream>    
+    
+using namespace std;    
+int main() {    
+    
+    int n;  
+    int a[50];  
+  
+    cin >> n;  
+    for(int i=0;i<n;i++){        
+    cin >> a[i];  
+    }         
+  
+    int min;  
+    min=a[0];                    
+    for(int i=1;i<n;i++){        
+        if(a[i]<min)  
+        min=a[i];  
+    }  
+    cout << min << endl;  
+      
+    return 0;    
+}    
+
+http://www.tcgs.tc.edu.tw:1218/ShowProblem?problemid=z065
