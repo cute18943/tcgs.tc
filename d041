@@ -1,0 +1,33 @@
+#include<iostream>      
+      
+using namespace std;        
+int main(){        
+        
+    long long int a=0,b=0,c=0;    
+        
+    cin>>a;    
+    c=a;    
+    while(a!=0){    
+           
+        a/=10;  
+        if(a%10==1){    
+            b+=1;    
+        }  
+          
+    }    
+      
+    if(c%10==1){  
+        b+=1;  
+    }  
+      
+        if(b==0 || c%10>=2){    
+            cout<<c<<"非二進位數"<<endl;    
+        }  
+        else{  
+            cout<<"包含1的個數為"<<b<<endl;   
+        }   
+    system("pause");        
+    return 0;        
+}        
+
+http://www.tcgs.tc.edu.tw:1218/ShowProblem?problemid=d041
