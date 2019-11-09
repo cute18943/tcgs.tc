@@ -1,0 +1,26 @@
+#include <iostream>    
+    
+using namespace std;    
+int main() {    
+    
+    int a,b=0,c,d,e,f,g;  
+      
+    cin>>a;  
+      
+    if(a>=0 && a<=10){  
+        b=a*6;  
+        cout<<b<<endl;  
+    }else if(a>=11 && a<=20){  
+        b=((a-10)*2)+60;  
+        cout<<b<<endl;  
+    }else if(a>=21 && a<=40){  
+        b=((a-10-10)*1)+60+20;  
+        cout<<b<<endl;  
+    }else{  
+        cout<<"100"<<endl;  
+    }  
+  
+    return 0;    
+}    
+
+http://www.tcgs.tc.edu.tw:1218/ShowProblem?problemid=z069
