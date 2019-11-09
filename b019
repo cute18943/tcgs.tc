@@ -1,0 +1,65 @@
+#include <iostream>     
+  
+using namespace std;    
+  
+int main()     
+  
+{     
+  
+int a[101],b;     
+  
+int i,j,k,temp;     
+  
+    
+  
+cin>>b;    
+  
+for(i=1;i<=b;i++)     
+  
+{     
+  
+cin>>a[i];    
+  
+}     
+  
+for(i=1;i<=b;i++)     
+  
+{     
+  
+for(j=i;j<=(b-1);j++)     
+  
+{     
+  
+if (a[i]<a[j+1])     
+  
+{     
+  
+temp=a[i];     
+  
+a[i]=a[j+1];     
+  
+a[j+1]=temp;     
+  
+}     
+  
+}     
+  
+}     
+  
+    
+  
+for (k=1;k<=b;k++)     
+  
+{     
+  
+cout<<a[k]<<" ";     
+  
+}     
+  
+system("PAUSE");     
+  
+return 0;    
+  
+}    
+
+http://www.tcgs.tc.edu.tw:1218/ShowProblem?problemid=b019
