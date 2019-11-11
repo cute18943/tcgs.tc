@@ -1,0 +1,30 @@
+#include <iostream>          
+       
+using namespace std;          
+int main() {          
+          
+    long long int a,b,c[101],d=0,max=0,e=0,i=0,j=0,k=0,m,n=0;  
+    cin>>a;  
+    for(b=1;b<=a;b++){  
+        cin>>c[b];  
+        d=d+c[b];  
+    }     
+      
+    for(i=1;i<=a;i++){            
+        if(c[i]>max)      
+        max=c[i];      
+    }      
+          
+    j=(d/a);  
+    for(m=1;m<=a;m++){  
+        k=j-c[m];  
+        if(k>=0){  
+            n+=k;  
+        }             
+    }  
+    cout<<n<<endl;    
+          
+    return 0;          
+}          
+
+http://www.tcgs.tc.edu.tw:1218/ShowProblem?problemid=c041
