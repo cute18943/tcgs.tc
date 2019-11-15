@@ -1,0 +1,54 @@
+#include<iostream>  
+  
+using namespace std;  
+  
+int main(){  
+      
+    int a,b,c[1441],e[1441],d[1441],f[1441],g[1441],h[1441],i[1441],j[1441];  
+      
+    cin>>a;  
+      
+    for(b=1;b<=a;b++){  
+        cin>>c[b]>>d[b];  
+    }  
+    for(b=1;b<=a;b++){  
+        e[b]=d[b]+30;  
+          
+          
+        if(e[b]>=60){  
+           g[b]=d[b]-60;  
+           f[b]=c[b]+1;  
+           if(g[b]<=0){  
+              
+            if(e[b]>=60){  
+                    h[b]=d[b]+30-60;  
+                    i[b]=c[b]+1;  
+                    if(i[b]==24){  
+                        cout<<"0 "<<h[b]<<endl;  
+                    }else if(e[b]>=60)  
+                    {  
+                        cout<<f[b]<<" "<<h[b]<<endl;  
+                    }else  
+                    {  
+                        cout<<f[b]<<" 0"<<endl;  
+                    }  
+                      
+               }else  
+               {  
+                    cout<<f[b]<<" 0"<<endl;  
+               }  
+           }else  
+           {  
+                    cout<<f[b]<<" "<<g[b]<<endl;      
+           }  
+             
+        }else  
+        {  
+             cout<<c[b]<<" "<<e[b]<<endl;  
+        }  
+    }  
+    return 0;  
+}
+
+
+http://www.tcgs.tc.edu.tw:1218/ShowProblem?problemid=z083
