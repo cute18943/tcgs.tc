@@ -1,0 +1,61 @@
+#include<iostream>    
+using namespace std;    
+    
+    
+int main()    
+{    
+    int a,b,c,d,e,f,g=0,h,i,j,k,m,n,p,q,r,s,t,u,v,w,x,y,z;    
+        
+    cin>>a>>b>>c;   
+      
+    if(a<600){  
+        d=a;  
+    }else  
+    {  
+        d=600;  
+    }  
+      
+     if(b<600){  
+        e=b;  
+    }else{  
+        e=600;  
+    }  
+       
+     if(c<800){  
+        f=c;  
+    }else{  
+        f=800;  
+    }  
+    h=1000;  
+    if(d+e>=1000 && d+e<2000){  
+      
+          
+        if(d+e+f>=1500){  
+             
+           if(f>=500){  
+                 g=h+500;  
+           }else{  
+             g=h+f;  
+           }  
+            
+             
+             
+    }else{  
+              
+            g=1000+f;  
+    }  
+          
+          
+          
+    }else{  
+        g=d+e+f;  
+    }  
+      
+      
+      
+  
+    cout<<g<<endl;  
+    return 0;    
+}    
+
+http://www.tcgs.tc.edu.tw:1218/ShowProblem?problemid=c033
